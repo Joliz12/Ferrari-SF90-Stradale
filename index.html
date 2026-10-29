@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrari SF90 Stradale</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div class="overlay"></div>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <nav class="nav-bar" id="navBar">
+                <button>HOME</button>
+                <button>FEATURES</button>
+                <button>ABOUT US</button>
+                <button>SUPPORT</button>
+                <button style="background-color: #e60000;">BUY NOW!!</button>               
+            </nav>
+        </header>
+        <main id="into">
+                    <h1>Ferrari SF90 Stradale</h1>
+            <div id="into-img">
+                    <img src="img/ferrari.png" alt="" id="pp">
+            </div>
+            <div class="img-grid">
+                    <div class="thumb-card"><img src="img/motor.png" alt="Vista 1" class="imgss"></div>
+                    <div class="thumb-card"><img src="img/interior.png" alt="Vista 2" class="imgss"></div>
+                    <div class="thumb-card"><img src="img/llantas.png" alt="Vista 3" class="imgss"></div>
+            </div>
+            <section id="into-detalles">
+                <div class="detail-card">
+                    <h3>Potencia Máxima</h3>
+                    <p class="stat-value">1,000 HP</p>
+                    <p class="stat-desc">Motor V8 Biturbo combinado con 3 motores eléctricos de alto rendimiento.</p>
+                </div>
+                <div class="detail-card">
+                    <h3>Aceleración</h3>
+                    <p class="stat-value">2.5s</p>
+                    <p class="stat-desc">De 0 a 100 km/h en un abrir y cerrar de ojos con tracción total inteligente.</p>
+                </div>
+                <div class="detail-card">
+                    <h3>Velocidad Punta</h3>
+                    <p class="stat-value">340 km/h</p>
+                    <p class="stat-desc">Diseño aerodinámico avanzado con fuerza de empuje hacia abajo optimizada.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script>
+        function toggleMenu() {
+            const navBar = document.getElementById('navBar');
+            navBar.classList.toggle('active');
+        }
+        </script>
+</body>
+</html>
